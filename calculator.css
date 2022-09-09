@@ -1,0 +1,78 @@
+*{
+	margin:auto;
+	padding:5px;
+	outline: 0px;
+    background: url(samjid.jpg)
+	
+}
+/*from_section_start*/
+form {
+    width: 250px;
+    background: #af969f;
+    padding: 0px 15px 15px 15px;
+    box-shadow: 1px 1px 1px 7px;
+    box-sizing: border-box;
+    border-radius: 11px ;
+}
+/*from_section_end*/
+
+/*name_section_start*/
+h3 {
+    margin-top: 31px;
+    font-style: italic;
+    float: left;
+    font-size: x-large;
+}
+/*name_section_end*/
+
+
+
+p {
+    line-height: 20px;
+    padding: 1px;
+    font-size: 19px;
+
+}
+#samjid{
+	line-height: 20px;
+    padding: 1px;
+    font-size: 19px;
+    text-align: center;
+    font-style: italic;
+    line-height: 0px;
+
+}
+/*input_section_start*/
+input[type="password"] {
+    width: 56px;
+    float: right;
+    border-style: dotted;
+    margin-right: 5px;
+   
+}
+input[type="text"] {
+    width: 100%;
+    font-size: 35px;
+    padding: 5px 0px;
+    text-align: right;
+    border-style: solid;
+
+}
+input[type="button"] {
+    width: 52px;
+    font-size: 24px;
+    padding: 15px 5px;
+    height: 56px;
+    margin-bottom: 5px;
+    background: hsla(0, 0%, 0%, 0.94);
+    color: hsl(244, 100%, 85%);
+    border-radius: 20px;
+}
+
+/*input_section_end*/
+
+hr {
+    margin: 7px 1px;
+    padding: 1px;
+    width: 216px;
+}

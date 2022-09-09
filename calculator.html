@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calculator.css">
+	<link rel="stylesheet" href="calculator.js">
+
+</head>
+<body>
+	<form action="" name="calculator">
+		<h3>CASIO</h3>
+		<p>SAMZID KHAN</p>
+
+		<input type="password" name="screen1" disabled="">    <!--first_screen-->
+
+
+		<input type="text" name="screen" disabled="" >  <!--2nd_screen-->
+		<hr>
+
+		<input type="button"  value="&radic;" onclick="calculator.screen.value=math.sqrt(calculator.screen.value)"> <!--squre_ruat_button-->
+		<input type="button"  value="CE" onclick="calculator.screen.value=''"> <!--"CE"_button-->
+		<input type="button"  value="C"  onclick="calculator.screen.value=''"><!--"C"_button-->
+		<input type="button"  value="&larr;"><br><!--back_button-->
+
+
+		<input type="button"  value="7" onclick="calculator.screen.value=calculator.screen.value+'7'"><!--seven_button-->
+		<input type="button"  value="8" onclick="calculator.screen.value=calculator.screen.value+'8'"><!--eight_button-->
+		<input type="button"  value="9" onclick="calculator.screen.value=calculator.screen.value+'9'"><!--nine_button-->
+		<input type="button"  value="+" onclick="calculator.screen.value=calculator.screen.value+'+'"><br><!--addisition_button-->
+
+		<input type="button"  value="4" onclick="calculator.screen.value=calculator.screen.value+'4'"><!--for_button-->
+		<input type="button"  value="5" onclick="calculator.screen.value=calculator.screen.value+'5'"><!--five_button-->
+		<input type="button"  value="6" onclick="calculator.screen.value=calculator.screen.value+'6'"><!--six_button-->
+		<input type="button"  value="-" onclick="calculator.screen.value=calculator.screen.value+'-'"><br><!-- subtraction_button-->
+
+		<input type="button"  value="1" onclick="calculator.screen.value=calculator.screen.value+'1'"><!--one_button-->
+		<input type="button"  value="2" onclick="calculator.screen.value=calculator.screen.value+'2'"><!--tow_button-->
+		<input type="button"  value="3" onclick="calculator.screen.value=calculator.screen.value+'3'"><!--three_button-->
+		<input type="button"  value="*" onclick="calculator.screen.value=calculator.screen.value+'*'"><br><!--Star_button-->
+
+		<input type="button"  value="0" onclick="calculator.screen.value=calculator.screen.value+'0'"><!--Zero_button-->
+		<input type="button"  value="." onclick="calculator.screen.value=calculator.screen.value+'.'"><!--dot_button-->
+		<input type="button"  value="=" onclick="calculator.screen.value=eval(calculator.screen.value)"><!--Equal_button-->
+		<input type="button"  value="/" onclick="calculator.screen.value=calculator.screen.value+'/'"><br><!--Division_button-->
+	
+		<p id="samjid">Design by samzid khan</p>;<!--buttom_down_designer_name-->
+		<hr>
+	</form>
+
+</body>
+</html>
